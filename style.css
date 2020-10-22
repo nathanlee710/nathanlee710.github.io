@@ -1042,7 +1042,7 @@ nav[role="navigation"] {
 		padding-top: 120px;
 	}
     .site-tagline{
-        padding-top: 0px;
+        padding-top: 20px;
         
     }
     
@@ -1107,8 +1107,8 @@ nav[role="navigation"] {
         margin-bottom: 20px;
     }
 	.row{
-		margin-top: 211px;
-		padding-top: 20px;
+		
+		padding-top: 211px;
 	}
     .site-tagline {
        
