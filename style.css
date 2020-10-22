@@ -532,7 +532,7 @@ pre {
 }
 .no-js main {
     height: auto;
-    overflow: visible;
+    overflow: hidden;
 }
 
 .no-js .cd-nav {
@@ -1039,7 +1039,6 @@ nav[role="navigation"] {
         margin-bottom: 40px;
     }
     .site-tagline{
-        margin-top: 120px;
         padding-top: 120px;
         
     }
@@ -1184,7 +1183,6 @@ nav[role="navigation"] {
     }
     .site-tagline {
         margin-top: 120px;
-        padding-top: 160px;
         margin-bottom: 80px;
         
     }
@@ -1321,7 +1319,7 @@ nav[role="navigation"] {
         padding: 100px 100px;
     }
     .row {
-        margin-top: 120px;
+        margin-top: 0px;
     }
     /*===== Titles =====*/
     .site-title {
@@ -1330,9 +1328,9 @@ nav[role="navigation"] {
         
 /*        margin-bottom: 200px;*/
     }
+	
     .site-tagline {
         margin-top: 200px;
-        padding-top: 180px;
         margin-right:auto;
         margin-left:auto;
         margin-bottom: 100px;
