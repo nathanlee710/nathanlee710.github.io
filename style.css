@@ -1036,9 +1036,12 @@ nav[role="navigation"] {
     /*===== Titles =====*/
     .site-title{
         top: 34px;
+        margin-bottom: 40px;
     }
     .site-tagline{
+        margin-top: 120px;
         padding-top: 120px;
+        
     }
     
     .site-tagline p { 
