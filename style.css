@@ -953,6 +953,7 @@ nav[role="navigation"] {
 .page-desc {
     padding: 20px;
     width: 100%;
+	min-height: 150px;
 }
 
 .page-desc img {
@@ -966,7 +967,7 @@ nav[role="navigation"] {
   margin-left: 60px;
 }
 .row {
-    margin-top: 40px;
+    margin-top: 220px;
 }
 .intro-content{
     
@@ -1029,7 +1030,34 @@ nav[role="navigation"] {
 /* Media Queries
 /*=================================*/
 
-
+@media only screen and (min-width: 370px) {
+	.site-title{
+        top: 34px;
+        margin-bottom: 30px;
+		padding-top: 15px;
+    }
+	.row{
+		padding-top: 0px;
+	}
+    .site-tagline{
+        padding-top: 20px;
+        
+    }
+	.site-header,
+    .page-desc {
+        
+		padding-bottom: -30px;
+		margin-bottom: -40px
+		
+/*        60px*/
+    }
+	img{
+		width: 100%;
+		margin-right: 10%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
 
 @media only screen and (min-width: 401px) {
 
@@ -1039,12 +1067,15 @@ nav[role="navigation"] {
         margin-bottom: 40px;
     }
 	.row{
-		padding-top: 120px;
+		padding-top: 0px;
 	}
     .site-tagline{
         padding-top: 20px;
         
     }
+	img{
+		width: 100%;
+	}
     
     .site-tagline p { 
         font-size: 28px;
@@ -1179,6 +1210,7 @@ nav[role="navigation"] {
     .site-header,
     .page-desc {
         padding-top: 80px;
+		padding-bottom: 100px;
     }
     .row {
         margin-top: 80px;
@@ -1335,7 +1367,11 @@ nav[role="navigation"] {
         
 /*        margin-bottom: 200px;*/
     }
-	
+	img{
+		width: 120%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
     .site-tagline {
         
         margin-right:auto;
