@@ -1038,8 +1038,11 @@ nav[role="navigation"] {
         top: 34px;
         margin-bottom: 40px;
     }
+	.row{
+		padding-top: 120px;
+	}
     .site-tagline{
-        padding-top: 120px;
+        padding-top: 0px;
         
     }
     
@@ -1103,9 +1106,12 @@ nav[role="navigation"] {
     .site-title {
         margin-bottom: 20px;
     }
+	.row{
+		margin-top: 211px;
+		padding-top: 20px;
+	}
     .site-tagline {
-        margin-top: 120px;
-        padding-top: 140px;
+       
         margin-bottom: 60px;
     }
     .site-content {
@@ -1176,6 +1182,7 @@ nav[role="navigation"] {
     }
     .row {
         margin-top: 80px;
+		padding-top: 80px;
     }
     /*===== Titles =====*/
     .site-title {
@@ -1319,7 +1326,7 @@ nav[role="navigation"] {
         padding: 100px 100px;
     }
     .row {
-        margin-top: 0px;
+        margin-top: 100px;
     }
     /*===== Titles =====*/
     .site-title {
@@ -1330,7 +1337,7 @@ nav[role="navigation"] {
     }
 	
     .site-tagline {
-        margin-top: 200px;
+        
         margin-right:auto;
         margin-left:auto;
         margin-bottom: 100px;
