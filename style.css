@@ -53,6 +53,7 @@ html {
 	font-weight: 600;
 	font-style: italic;
 }
+
 body {
     background: #FFFFFF;
     color: #001233;
@@ -240,6 +241,37 @@ pre {
 .site-tagline a:hover {
     color: #2c2c2c;
 }
+
+/*=================================*/
+/* LINK ANIMATION Styles
+/*=================================*/
+/*p > a {
+  position: relative;
+  color: #00a8e8;
+  text-decoration: none;
+}
+
+p > a:hover {
+  color: #00a8e8;
+}
+p > a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #00a8e8;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+p > a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}*/
+
+
 /*=================================*/
 /* Language Styles
 /*=================================*/
@@ -1054,8 +1086,8 @@ nav[role="navigation"] {
 	img{
 		width: 100%;
 		margin-right: 10%;
-		padding-left: 10%;
-		padding-right: 10%;
+		/*padding-left: 10%;
+		padding-right: 10%;*/
 	}
 }
 
@@ -1216,6 +1248,7 @@ nav[role="navigation"] {
         margin-top: 80px;
 		padding-top: 80px;
     }
+	
     /*===== Titles =====*/
     .site-title {
         margin-bottom: 0px;
