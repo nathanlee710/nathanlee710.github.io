@@ -47,11 +47,13 @@ html {
 	font-family: skolar-sans-latin,sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	font-variant-ligatures: common-ligatures;
 }
 .em{
     font-family: skolar-sans-latin,sans-serif;
 	font-weight: 600;
 	font-style: italic;
+	font-variant-ligatures: common-ligatures;
 }
 
 body {
@@ -86,6 +88,7 @@ h1,h2,h3 {
     
     font-weight: bold;
     line-height: 1.5;
+	font-variant-ligatures: common-ligatures;
 }
 h1 {
     font-size: 2.2rem;
@@ -135,6 +138,7 @@ p,li {
     font-size: 1.2rem;
     line-height: 1.5;
     margin: 0 0 20px;
+	font-variant-ligatures: common-ligatures;
 }
 small {
     font-weight: 300;
@@ -236,11 +240,13 @@ pre {
     font-size: 21px;
     text-align: left;
     width: 90%;
+	font-variant-ligatures: common-ligatures;
 }
 .site-tagline a,
 .site-tagline a:visited { color: #00a8e8; font-style: regular}
 .site-tagline a:hover {
     color: #2c2c2c;
+	font-variant-ligatures: common-ligatures;
 }
 
 /*=================================*/
